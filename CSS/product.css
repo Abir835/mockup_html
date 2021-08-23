@@ -81,7 +81,7 @@ body{
 }
 
 
-.container {
+/* .container {
     position: relative;
     display: none;
     height: 500px;
@@ -107,4 +107,4 @@ body{
     color: white;
     font-size: 35px;
     cursor: pointer;
-  }
+  } */
