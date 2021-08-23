@@ -10,22 +10,23 @@
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 
 </head>
 <body>
     <!-- Navber Start -->
 
-    <nav class="navbar">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="max-width">
             <div class="logo">
-                <a href="#home">Bike The<span>me</span></a>
+                <a href="index.html">Bike The<span>me</span></a>
             </div>
             <ul class="menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#product">Product</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -56,7 +57,7 @@
             </div>
             <div class="desc">
                 <p>This is Indian Bike</p>
-                <button>Read More</button>
+                <button><a href="#bajaj">Read More</a></button>
             </div>
         </div>
         <div class="card">
@@ -68,7 +69,8 @@
             </div>
             <div class="desc">
                 <p>This is Japanse Bike</p>
-                <button>Read More</button>
+                <button><a href="#suzuki">Read More</a></button>
+                
             </div>
         </div>
         <div class="card">
@@ -76,18 +78,82 @@
                 <img src="/img/bike2.png" alt="">
             </div>
             <div class="title">
-                <h1>Walton</h1>
+                <h1>Yehama</h1>
             </div>
             <div class="desc">
                 <p>This is BD Bike</p>
-                <button>Read More</button>
+                <button><a href="#yehama">Read More</a></button>
             </div>
         </div>
     </div>
     <!-- Product section end -->
+
+    <div class="feature">
+        <h1>Featu<span>res</span></h1>
+    </div>
+
+    <!--Carousol start-->
+    <div class="featurs" >
+        <div class="featur" id="bajaj">
+            <div class="images">
+                <img src="/img/bike1.jpg" alt="">
+            </div>
+            <div class="title-1">
+                <h1 class="size">Bajaj Pulsar</h1>
+            </div>
+            <div class="desc-1">
+                <ul>
+                    <li>Mileage- 40 kilo</li>
+                    <li>Displacement- 149.5 cc</li>
+                    <li>Max Power- 14 PS @ 8500 rpm</li>
+                    <li>Front Brake- Disc</li>
+                    <li>Price- 150000 BDT</li>
+                </ul>
+                
+            </div>
+        </div>
+        <div class="featur" id="suzuki">
+            <div class="images">
+                <img src="/img/bg1.jpg" alt="">
+            </div>
+            <div class="title-1">
+                <h1 class="size">Suzuki Gixxer</h1>
+            </div>
+            <div class="desc-1">
+                <ul>
+                    <li>Mileage- 35 kilo</li>
+                    <li>Displacement- 140.5 cc</li>
+                    <li>Max Power- 12 PS @ 8000 rpm</li>
+                    <li>Front Brake- Disc</li>
+                    <li>Price- 175000 BDT</li>
+                </ul>
+                
+          </div>
+        </div>
+        <div class="featur" id="yehama">
+            <div class="images">
+                <img src="/img/bike2.png" alt="">
+            </div>
+            <div class="title-1">
+                <h1 class="size">Yamaha FZS Fi V3</h1>
+            </div>
+            <div class="desc-1">
+                <ul>
+                    <li>Mileage- 25 kilo</li>
+                    <li>Displacement- 169.5 cc</li>
+                    <li>Max Power- 16 PS @ 8500 rpm</li>
+                    <li>Front Brake- Disc</li>
+                    <li>Price- 210000 BDT</li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <!--Carousol end-->
+
     <!-- About section start -->
 
-    <div class="footer">
+    <!-- <div class="footer">
         <div class="social">
             <a href="#"><i class="fab fa-instagram"></i></a>
             <a href="#"><i class="fab fa-facebook"></i></a>
@@ -114,8 +180,131 @@
         <p class="copywrite">
             Future Coder @2021
         </p>
-    </div>
+    </div> -->
+
     <!-- About section End -->
+    <!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom" style="margin-top: 70px;">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+  
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+  
+    <!-- Section: Links  -->
+    <section class="" style="background-color: #ecd5d5; margin-top: 20px;">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4" >
+              <i class="fas fa-gem me-3"></i>Bajaj Show Room
+            </h6>
+            <p>
+              Here you can use rows and columns to organize your footer content. Lorem ipsum
+              dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4" style="text-align: left;">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Products
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Bajaj</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Japanese</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">BD</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Indian</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4" style="text-align: left;">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4" >
+              Useful links
+            </h6>
+            <p>
+              <a href="#!" class="text-reset" >Pricing</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Settings</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Orders</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Help</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4" id="contact">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Contact
+            </h6>
+            <p><i class="fas fa-home me-3"></i> Dhaka, NY 10012, BD</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              info@example.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+    
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
 <script src="JS/script.js"></script> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>

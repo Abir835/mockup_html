@@ -1,0 +1,222 @@
+
+abir@abir-E520:~/Desktop/Abir Hasan /Projects/Html_Css_Page/theme_project/BikeTheme$ code .
+abir@abir-E520:~/Desktop/Abir Hasan /Projects/Html_Css_Page/theme_project/BikeTheme$ ls
+CSS  img  index.html  JS
+abir@abir-E520:~/Desktop/Abir Hasan /Projects/Html_Css_Page/theme_project/BikeTheme$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   JS/script.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+abir@abir-E520:~/Desktop/Abir Hasan /Projects/Html_Css_Page/theme_project/BikeTheme$ git add JS/script.js
+abir@abir-E520:~/Desktop/Abir Hasan /Projects/Html_Css_Page/theme_project/BikeTheme$ git commit -m 'js file slight changes'
+[master 105b144] js file slight changes
+ 1 file changed, 1 insertion(+)
+abir@abir-E520:~/Desktop/Abir Hasan /Projects/Html_Css_Page/theme_project/BikeTheme$ git push origin master
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 425 bytes | 425.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:Abir835/mockup_html.git
+   cd6c697..105b144  master -> master
+abir@abir-E520:~/Desktop/Abir Hasan /Projects/Html_Css_Page/theme_project/BikeTheme$ history
+    1  sudo apt install code
+    2  sudo apt update
+    3  sudo apt -y install wget
+    4  apt-get install wget
+    5  clear
+    6  sudo apt install wget
+    7  wget --version
+    8  yum search epel-release
+    9  sudo -i
+   10  sudo apt install epel-release
+   11  sudo apt info epel-release
+   12  sudo info epel-release
+   13  sudo apt-get install build-essential
+   14  gcc --version
+   15  make --version
+   16  sudo apt install apt-transport-https
+   17  sudo apt install code
+   18  sudo apt install apt-transport-https
+   19  curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
+   20  sudo install -o root -g root -m 644 microsoft.gpg /etc/apt/trusted.gpg.d/
+   21  sudo apt install apt-transport-https
+   22  curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
+   23  sudo install -o root -g root -m 644 microsoft.gpg /etc/apt/trusted.gpg.d/
+   24  sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
+   25  sudo apt update
+   26  sudo apt install code
+   27  code
+   28  sudo apt-get install vim
+   29  vim index.html
+   30  git init
+   31  sudo apt update
+   32  sudo apt install git
+   33  git --version
+   34  git config-global user.name "Abir835"
+   35  git config –global user.name "Abir835"
+   36  sudo apt update
+   37  git config -global user.name "Abir835"
+   38  git config --global user.name "Abir835"
+   39  git config --global user.email "abirhasan.raj.bd@gmail.com"
+   40  git config--list
+   41  git config --list
+   42  git init
+   43  git add .
+   44  git commit -m "first commit"
+   45  git branch -M main
+   46  git remote add origin https://github.com/Abir835/BikeMockTheme.git
+   47  git push -u origin main
+   48  git remote add origin https://github.com/Abir835/BikeMockTheme.git
+   49  git branch -M main
+   50  git remote add origin https://github.com/Abir835/BikeMockTheme.git
+   51  git init
+   52  git add .
+   53  git commit -m "first commit"
+   54  git branch -M main
+   55  git remote add origin https://github.com/Abir835/BikeTheme.git
+   56  git config --list
+   57  git init
+   58  ls
+   59  git add .
+   60  git commit -m "inital commit"
+   61  git status
+   62  git remote add origin https://github.com/Abir835/BikeTheme.git
+   63  git push -u origin main
+   64  git status
+   65  cd ..
+   66  ls
+   67  cd Html_Css_Page
+   68  ls
+   69  mkdir theme_project
+   70  cd ..
+   71  pwd
+   72  ls
+   73  cd Html_Css_Page/
+   74  ls
+   75  cp BikeTheme/ theme_project/
+   76  cp -r BikeTheme/ theme_project/
+   77  ls
+   78  cd theme_project/
+   79  ls
+   80  cd BikeTheme/
+   81  ls
+   82  git status
+   83  git add.
+   84  git add .
+   85  ls
+   86  git status
+   87  git commit -m 'Car theme mockup'
+   88  git remote add origin master
+   89  git push
+   90  git push --set-upstream origin main
+   91  ls
+   92  cd ..
+   93  ls
+   94  rm -rf .venv
+   95  rm -rf BikeTheme/
+   96  cd ..
+   97  ls
+   98  cp -r BikeTheme/ theme_project/
+   99  ls
+  100  cd theme_project/
+  101  ls
+  102  cd bik
+  103  cd BikeTheme/
+  104  git init
+  105  git add README.md
+  106  ls
+  107  git commit -m 'mockup theme of bike'
+  108  git add .
+  109  git commit -m 'mockup theme of bike'
+  110  git push -u origin master
+  111  git push
+  112  git remote add origin https://github.com/Abir835/BikeTheme.git
+  113  git push -u origin main
+  114  git push
+  115  git push --set-upstream origin master
+  116  git --version
+  117  git config --global credential.helper cache
+  118  git push --set-upstream origin master
+  119  git remote add origin git@github.com:Abir835/BikeTheme.git
+  120  ls
+  121  cd ..
+  122  ls
+  123  cd BikeTheme/
+  124  ls
+  125  git remote set-url origin https://github.com/Abir835/BikeTheme.git
+  126  git push --set-upstream origin master
+  127  git remote -v
+  128  vim .git/config 
+  129  git push --set-upstream origin master
+  130  git remote add origin ssh://github.com/USERNAME/REPOSITORY.git
+  131  git remote set-url origin https://github.com/Abir835/BikeTheme.git
+  132  git remote -v
+  133  ssh-add ~/.ssh/id_rsa
+  134  ls -al ~/.ssh
+  135  ssh-keygen -t rsa -b 4096 -C "abirhasan.raj.bd@gmail.com"
+  136  eval "$(ssh-agent -s)"
+  137  pbcopy < ~/.ssh/id_rsa.pub
+  138  pbcoppbcopy <y < ~/.ssh/id_rsa.pub
+  139  ~/.ssh/id_rsa.pub
+  140  vim ~/.ssh/id_rsa.pub
+  141  ls
+  142  git status
+  143  git push
+  144  git push --set-upstream origin master
+  145  exit
+  146  git config --list
+  147  git config --global http.sslVerify false
+  148  ls
+  149  cd Desktop/
+  150  ls
+  151  cd "Abir Hasan"
+  152  cd Abir\ Hasan\
+  153  ls -a
+  154  rm -rf Untitled-1 
+  155  git init
+  156  git status
+  157  git add .
+  158  git commit -m 'mockup html'
+  159  git remote add origin git@github.com:Abir835/mockup_html.git
+  160  git push
+  161  git push origin master
+  162  hiy status
+  163  git status
+  164  ls
+  165  git status
+  166  git push origin master
+  167  git remote set-url origin https://<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>@github.com/<Abir835>/https://github.com/Abir835/BikeTheme.git
+  168  git remote set-url origin https://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@github.com/<Abir835>/https://github.com/Abir835/BikeTheme.git
+  169  git remote set-url origin https://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@github.com/Abir835/https://github.com/Abir835/BikeTheme.git
+  170  git push origin master
+  171  ls
+  172  git status
+  173  git remote -v
+  174  git push
+  175  git push --set-upstream origin master
+  176  history
+  177  git status
+  178  git add .
+  179  git commit -m 'second push'
+  180  git push
+  181  git push origin master
+  182  git push --set-upstream origin main
+  183  git -v
+  184  git remote -v
+  185  git remote add origin git@github.com:Abir835/mockup_html.git
+  186  ls
+  187  code .
+  188  ls
+  189  git status
+  190  git add JS/script.js
+  191  git commit -m 'js file slight changes'
+  192  git push origin master
+  193  history
